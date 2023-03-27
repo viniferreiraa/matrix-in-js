@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/matrix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+    display: grid;
+    place-content: center;
+
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+p {
+    margin-bottom: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.container .element {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 64px;
+}
+
+input {
+    text-align: center;
+    padding: 16px 32px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+
+button {
+    padding: 16px 32px;
+    background-color: #b8e09c;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: #9fed66;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 50px;
+}
